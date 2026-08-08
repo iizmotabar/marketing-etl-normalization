@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 835" font-family="Segoe Print, Bradley Hand, Comic Sans MS, cursive, sans-serif">
+<defs><filter id="sketch" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="3" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="3.5"/></filter></defs>
+<rect x="0" y="0" width="840" height="835" fill="#ffffff"/>
+<text x="420.0" y="38" font-size="26" text-anchor="middle" fill="#1e1e1e" font-weight="bold">Marketing ETL Normalization Flow</text>
+<g filter="url(#sketch)">
+<rect x="40.0" y="70" width="760" height="94" rx="22" ry="22" fill="#a5d8ff" stroke="#4a9eed" stroke-width="2.5"/>
+</g>
+<text x="420.0" y="111.0" font-size="18" text-anchor="middle" fill="#1e1e1e">All marketing platforms: ads, CRM,</text>
+<text x="420.0" y="135.0" font-size="18" text-anchor="middle" fill="#1e1e1e">analytics, email</text>
+<g filter="url(#sketch)">
+<line x1="420.0" y1="168" x2="420.0" y2="205" stroke="#555555" stroke-width="2.5"/>
+<polygon points="412.0,205 428.0,205 420.0,217" fill="#555555"/>
+</g>
+<g filter="url(#sketch)">
+<rect x="40.0" y="219" width="760" height="94" rx="22" ry="22" fill="#d0bfff" stroke="#8b5cf6" stroke-width="2.5"/>
+</g>
+<text x="420.0" y="260.0" font-size="18" text-anchor="middle" fill="#1e1e1e">ETL pipelines land each platform&#x27;s raw</text>
+<text x="420.0" y="284.0" font-size="18" text-anchor="middle" fill="#1e1e1e">schema</text>
+<g filter="url(#sketch)">
+<line x1="420.0" y1="317" x2="420.0" y2="354" stroke="#555555" stroke-width="2.5"/>
+<polygon points="412.0,354 428.0,354 420.0,366" fill="#555555"/>
+</g>
+<g filter="url(#sketch)">
+<rect x="40.0" y="368" width="760" height="94" rx="22" ry="22" fill="#c3fae8" stroke="#0891b2" stroke-width="2.5"/>
+</g>
+<text x="420.0" y="409.0" font-size="18" text-anchor="middle" fill="#1e1e1e">Normalize metric names and types across</text>
+<text x="420.0" y="433.0" font-size="18" text-anchor="middle" fill="#1e1e1e">every platform</text>
+<g filter="url(#sketch)">
+<line x1="420.0" y1="466" x2="420.0" y2="503" stroke="#555555" stroke-width="2.5"/>
+<polygon points="412.0,503 428.0,503 420.0,515" fill="#555555"/>
+</g>
+<g filter="url(#sketch)">
+<rect x="40.0" y="517" width="760" height="94" rx="22" ry="22" fill="#b2f2bb" stroke="#22c55e" stroke-width="2.5"/>
+</g>
+<text x="420.0" y="558.0" font-size="18" text-anchor="middle" fill="#1e1e1e">Centralized BigQuery warehouse, one</text>
+<text x="420.0" y="582.0" font-size="18" text-anchor="middle" fill="#1e1e1e">consistent schema</text>
+<g filter="url(#sketch)">
+<line x1="420.0" y1="615" x2="420.0" y2="652" stroke="#555555" stroke-width="2.5"/>
+<polygon points="412.0,652 428.0,652 420.0,664" fill="#555555"/>
+</g>
+<g filter="url(#sketch)">
+<rect x="40.0" y="666" width="760" height="94" rx="22" ry="22" fill="#ffd8a8" stroke="#f59e0b" stroke-width="2.5"/>
+</g>
+<text x="420.0" y="707.0" font-size="18" text-anchor="middle" fill="#1e1e1e">Result: budget optimized against one</text>
+<text x="420.0" y="731.0" font-size="18" text-anchor="middle" fill="#1e1e1e">trusted set of numbers</text>
+</svg>
