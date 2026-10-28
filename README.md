@@ -1,6 +1,6 @@
 # Marketing ETL Normalization
 
-End to end ETL pipelines that connect every marketing platform an enterprise team uses into one centralized BigQuery warehouse with genuinely normalized metrics, not just co-located raw tables. Built from the kind of large-scale ETL work I do at [motabar.builds.stuff](https://motabar.builds.stuff) for enterprise marketing teams running ten or more platforms at once.
+End to end ETL pipelines that connect every marketing platform an enterprise team uses into one centralized BigQuery warehouse with genuinely normalized metrics, not just co-located raw tables. Built from the kind of large-scale ETL work I do at [motabar.builds.stuff](https://motabarbuildstuff.com/) for enterprise marketing teams running ten or more platforms at once.
 
 ## The problem this solves
 
@@ -35,3 +35,10 @@ Each platform's connector lands data in its own native shape first, since forcin
 ## Stack
 
 Python, BigQuery, dbt, multiple ad platform APIs
+
+## Related
+
+* Case study: [End-to-End Marketing ETL Pipelines](https://motabarbuildstuff.com/case-studies/end-to-end-marketing-etl-pipelines/)
+* Service: [Marketing analytics consulting](https://motabarbuildstuff.com/marketing-analytics-consultant/)
+
+Built by [Motabar Javaid](https://motabarbuildstuff.com/about/), analytics engineer at [motabar.builds.stuff](https://motabarbuildstuff.com/).
